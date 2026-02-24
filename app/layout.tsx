@@ -30,8 +30,10 @@ export const metadata: Metadata = {
   keywords: [
     'Recep Celik',
     'Backend Developer',
+    'Devops',
     'Systems Engineer',
-    'Mathematics Engineering',
+    'Mathematical Engineering',
+    'Applied Mathematical',
     'Next.js Portfolio',
     'NestJS',
     'Cloud Architecture',
@@ -50,7 +52,7 @@ export const metadata: Metadata = {
     siteName,
     images: [
       {
-        url: '/placeholder-logo.png',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'Recep Celik Portfolio',
@@ -61,7 +63,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: siteTitle,
     description: siteDescription,
-    images: ['/placeholder-logo.png'],
+    images: ['/logo.png'],
   },
   robots: {
     index: true,
@@ -76,20 +78,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
+      { url: '/tab-icon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/tab-icon-64.png', sizes: '64x64', type: 'image/png' },
     ],
-    apple: '/apple-icon.png',
+    shortcut: '/tab-icon-32.png',
+    apple: '/logo.png',
   },
 }
 
