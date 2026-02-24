@@ -82,13 +82,15 @@ export function AboutSection() {
             }`}
           >
             <p className="text-lg leading-relaxed text-foreground mb-6">
-            Backend-oriented Mathematical Engineering student specializing in scalable system architecture, secure API design, and
-            cloud-native infrastructure. Passionate about building high-performance and maintainable software systems
+            Backend-focused Mathematics Engineering student building scalable systems 
+            with strong architectural foundations. I care about structure, performance, 
+            and long-term reliability over quick hacks.
             </p>
+
             <p className="text-base leading-relaxed text-secondary-foreground mb-6">
-              My work lives at the intersection of mathematical rigor and
-              engineering execution. I build systems that solve real problems
-              — from full-stack applications to computational simulations.
+            My mindset blends mathematical discipline with practical engineering. 
+            I design software like a system — modular, secure, and built to evolve. 
+            Currently focused on backend architecture, cloud infrastructure, and security-oriented development.
             </p>
 
             {/* Coordinates / metadata */}
@@ -101,12 +103,12 @@ export function AboutSection() {
               <div className="font-mono text-xs text-muted-foreground">
                 <span className="text-primary">FOCUS</span>
                 <br />
-                System Design 
+  Backend Systems & Architecture
               </div>
               <div className="font-mono text-xs text-muted-foreground">
-                <span className="text-primary">STATUS</span>
+                <span className="text-primary">MISSION</span>
                 <br />
-                Active Development
+  Build Robust & Scalable Software
               </div>
             </div>
           </div>

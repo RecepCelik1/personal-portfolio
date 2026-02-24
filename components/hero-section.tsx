@@ -172,16 +172,6 @@ export function HeroSection() {
             </a>
           </div>
 
-          {/* Scroll indicator */}
-          <div
-            className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in-up"
-            style={{ animationDelay: "2s" }}
-          >
-            <span className="font-mono text-xs text-muted-foreground tracking-widest">
-              SCROLL
-            </span>
-            <div className="w-px h-8 bg-gradient-to-b from-primary/50 to-transparent" />
-          </div>
         </div>
       )}
     </section>
