@@ -72,7 +72,7 @@ const projects = [
     "Google Cloud"
   ],
   year: "2026",
-  githubUrl: "https://github.com/username/food-delivery-marketplace",
+  githubUrl: "https://github.com/RecepCelik1/yiyo-refactor",
 },
 ]
 
